@@ -165,6 +165,7 @@
         let autoClickerInterval = null;
         let cookieDoublingActive = false;
         let shopVisible = false;
+        let moneyPerSecond = 0;
 
         const cookie = document.getElementById("cookie");
         const scoreDisplay = document.getElementById("score");
@@ -359,6 +360,7 @@
         }
 
         setInterval(renderShop, 1000);
+        setInterval(score += moneyPerSecond, 1000)
     </script>
 </body>
 </html>
